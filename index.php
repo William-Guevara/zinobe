@@ -47,6 +47,17 @@
 		<p>Bienvenido,<br>a tu directorio virtual.</p>
 		<div id="tarjeta">
 			<form name="formulario" id="formulario" method="post" action="validation.php">
+			<?php
+			if(isset($_GET['msg']))
+			if($_GET['msg']=='DP')
+			{
+				echo 'El usuario ya se encuentra registrado.';
+			}
+			else
+			{
+				echo 'El usuario ha sido creado satisfactoriamente.';
+			}
+			?>
 				<div id="contenido_tarjeta">
 					<label>Usuario</label>
 					<input type="text" name="user" id="user" class="inp" required="required">

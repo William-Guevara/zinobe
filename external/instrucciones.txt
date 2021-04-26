@@ -1,0 +1,7 @@
+1) Correr en el gestor de mysql el sql "zinobe.sql" para generar la base de datos que será utilizada.
+2) La base de datos cuenta con un usuario registrado el cual brindara el ingreso inmediato a nuestra app:
+    user: admin@gmail.com
+    password: admin
+3) Descargar el repositorio en el servidor local.
+4) Ingresar al aplicativo "zinobe" desde su navegador favorito, ejemplo de ingreso desde servidor local "http://localhost/zinobe"
+5) registrarse y loguearse para poder ingresar.

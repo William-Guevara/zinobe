@@ -307,7 +307,7 @@ LOCK TABLES `usuario` WRITE;
 
 INSERT INTO `usuario` (`id`, `primer_nombre`, `documento`, `email`, `pais`, `password`, `intentos`, `estado`)
 VALUES
-	(1,'admin','123456789','admin@gmail.com',1,'admin',0,1);
+	(1,'admin','123456789','admin@gmail.com',1,'21232f297a57a5a743894a0e4a801fc3',0,1);
 
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;

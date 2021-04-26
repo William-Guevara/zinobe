@@ -4,7 +4,7 @@ $('document').ready(function()
 	$('#nuevoUsuario').click(function()
 	{
 		var titulo = ['Nombre','Documento','Email','País','Contraseña'];
-		var campo = ['r_primerNombre','rn_documento','r_email','rs_pais','r_contrasena'];
+		var campo = ['r_primerNombre','rn_documento','re_email','rs_pais','r_contrasena'];
 		var formulario = 'new_user';
 		formNuevo(titulo,campo,formulario);
 	});
@@ -110,6 +110,9 @@ function formNuevo(titulo,campos,formulario)
 			break;
 			case 'rp':
 			pintarForm += '<input class="inp-modal" type="password" id="'+campo+'" name="'+campo+'" required>';
+			break;
+			case 're':
+			pintarForm += '<input class="inp-modal" type=“email” id="'+campo+'" name="'+campo+'" required>';
 			break;
 			case 'rh':
 			pintarForm += '<input class="inp-modal" type="hidden" id="'+campo+'" name="'+campo+'" required>';
